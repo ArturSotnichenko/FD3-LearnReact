@@ -1,0 +1,45 @@
+.GoodsLisFrame {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 5px;
+}
+.ShopName{
+    font: bold 3em serif;
+    margin: 10px 0px 50px 0px;
+}
+
+
+.ProductsList{
+    border-collapse: collapse;
+    border: 1px solid rgb(133, 132, 132);
+    text-align: center;
+}
+.ProductsList td{
+    border: 1px solid rgb(133, 132, 132);
+    padding: 10px;
+}
+.ProductsList tr{
+
+	background: #fff;
+}
+
+.ProductsList tr:hover:not(tr:first-child){
+    background: #8e8e8e;
+    cursor: pointer;
+}
+.laptopName{
+    width: 300px;
+    font: bold 1.5em serif;
+}
+
+.laptopImg{
+    width: 300px;
+    margin: 5px;
+   }
+   
+   .laptopPrice,.goodsLeft{
+    width: 100px;
+}

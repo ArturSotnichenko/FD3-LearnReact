@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script src="https://unpkg.com/react@15/dist/react.js"></script> 
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>   
+    <script src="laptopList.js"></script>
+    <link rel="stylesheet" type="text/css" href="laptopList.css">
+<script>
+
+var shopName = "Artur's tech shop"
+
+var laptopArr = [
+ {laptopName:'Asus', laptopPrice: 1500, laptopURL: 'img/LP-01.jpg', goodsLeft:50, key:1},
+ {laptopName:'Lenovo', laptopPrice: 1320, laptopURL: 'img/LP-02.jpg', goodsLeft:34, key:2},
+ {laptopName:'hp', laptopPrice: 1100, laptopURL: 'img/LP-03.jpg', goodsLeft:45, key:3},
+ {laptopName:'HUAWEI', laptopPrice: 1250, laptopURL: 'img/LP-04.jpg', goodsLeft:12, key:4},
+ {laptopName:'DELL', laptopPrice: 1000, laptopURL: 'img/LP-05.jpg', goodsLeft:15, key:5},
+ {laptopName:'Xiaomi', laptopPrice: 1300, laptopURL: 'img/LP-06.jpg', goodsLeft:33, key:6},
+ {laptopName:'MSI', laptopPrice: 1600, laptopURL: 'img/LP-07.jpg', goodsLeft:23, key:7},
+
+];
+
+var tableName = [
+            {partName:'Название ноутбука', key:1}, 
+            {partName:'Цена', key:2},
+            {partName:'Фото', key:3},
+            {partName:'Осталось на складе', key:4},
+        ];
+
+        function buildList(Name, arrow, category) {
+            ReactDOM.render(
+                React.createElement(GoodsList, {shopName:Name, productsArr:arrow, categoryNames:category}),
+                document.querySelector('#container')
+            );
+        }
+        buildList(shopName, laptopArr, tableName);
+
+
+</script>
+    
+</body>
+</html>
