@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ishop2</title>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+
+    <script src="Shop.js"></script>
+    <script src="ShopItem.js"></script>
+    <link rel="stylesheet" type="text/css" href="Shop.css" />
+
+    <script>
+        var shopName = 'Tech shop';
+        var itemsArr = [
+            { name: 'Asus', price: '1500 р', url: 'img/LP-01.jpg', code: '1', inStock: 50, control:'delete' },
+            { name: 'Lenovo', price: '1320 р', url: 'img/LP-02.jpg', code: '2', inStock: 34,control:'delete' },
+            { name: 'hp', price: '1100 р', url: 'img/LP-03.jpg', code: '3', inStock: 45,control:'delete' },
+            { name: 'HUAWEI', price: '1250 р', url: 'img/LP-04.jpg', code: '4', inStock: 12,control:'delete'},
+            { name: 'DELL', price: '1000 р', url: 'img/LP-05.jpg', code: '5', inStock: 15,control:'delete' },
+            { name: 'Xiaomi', price: '1300 р', url: 'img/LP-06.jpg', code: '6',inStock: 33,control:'delete'},
+            { name: 'MSI', price: '1600 р', url: 'img/LP-07.jpg', code: '7',inStock: 23,control:'delete' },
+        ];
+
+        ReactDOM.render(
+            React.createElement(Shop, { name: shopName, items: itemsArr }),
+            document.getElementById('container')
+        );
+
+    </script>
+
+</body>
+
+</html>
