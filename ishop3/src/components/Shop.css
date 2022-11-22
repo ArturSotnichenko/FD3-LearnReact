@@ -1,0 +1,32 @@
+.Shop
+{
+    margin: auto;
+    width: 100%;
+}
+
+.Shop .ShopName
+{
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.Shop .table
+{
+    padding-top: 5px;
+       border-collapse: collapse;
+
+}
+
+.Shop .table .field
+{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.Shop .table .body
+{
+    cursor: pointer;
+}

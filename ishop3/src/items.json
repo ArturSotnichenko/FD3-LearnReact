@@ -1,0 +1,9 @@
+[
+{"name": "Asus","price": "1500 р", "url": "img/LP-01.jpg", "code": "111", "inStock": "50" },
+{"name": "Lenovo","price": "1320 р","url": "img/LP-02.jpg", "code": "222", "inStock": "34" },
+{"name": "hp","price": "1100 р","url": "img/LP-03.jpg", "code": "333", "inStock": "45"},
+{"name": "HUAWEI","price": "1250 р","url": "img/LP-04.jpg", "code": "444", "inStock": "12"},
+{"name": "DELL","price": "1000 р", "url": "img/LP-05.jpg", "code": "555", "inStock": "15" },
+{"name": "Xiaomi","price": "1300 р","url": "img/LP-06.jpg", "code": "666","inStock": "33"},
+{"name": "MSI","price": "1600 р","url": "img/LP-07.jpg", "code": "777","inStock": "23" }
+]

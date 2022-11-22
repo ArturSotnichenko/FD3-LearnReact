@@ -1,0 +1,16 @@
+.itemChange .inputArea
+{
+    display: block;
+}
+
+.itemChange .inputArea .fieldName
+{
+    display: inline-block;
+    width: 60px;
+}
+
+.itemChange .inputArea .error
+{
+    color: red;
+    padding-left: 10px;
+}
