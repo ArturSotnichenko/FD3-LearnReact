@@ -1,0 +1,27 @@
+.MobileCompany
+{
+    padding-top: 10px;
+}
+
+.MobileCompanyFilter
+{
+    margin-top: 10px;
+    padding: 10px 0 10px;
+    border-top: 1px solid #b3b7bb;
+    border-bottom: 1px solid #b3b7bb;
+}
+
+
+
+.table
+{
+    width: 50%;
+       margin: 20px 0px;
+}
+.table .cell
+{
+    border-style: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
