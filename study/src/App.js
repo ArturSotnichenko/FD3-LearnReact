@@ -45,8 +45,6 @@ const sortPosts =(sort) => {
   setSelectedSort(sort); 
 }
  
-
-
   return (
     <div className="App">
       <PostForm create={createPost}/>
@@ -57,8 +55,6 @@ const sortPosts =(sort) => {
         onChange={e=> setSearchQuery(e.target.value)}
         placrholder="Поиск..."
         />
-
-
         <MySelect
         value={selectedSort}
         onChange={sortPosts}
@@ -68,21 +64,14 @@ const sortPosts =(sort) => {
           {value:'body', name:"по описанию "}
 
         ]}
-
-        
-        
         />
       </div>
-
       {posts.length !==0
       ? <PostList remove={removePost} posts ={sortedPosts} title="Посты про JS"/>
       : <h1 style={{textAlign:'center'}}> Посты не найдены</h1>
       
-    }
-     
-         
-    </div> 
-
+    }       
+  </div> 
   )
 }
 
