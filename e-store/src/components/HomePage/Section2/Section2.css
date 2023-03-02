@@ -1,0 +1,16 @@
+.ban1-wrapper{
+    display: flex;
+    justify-content: center;
+    background-image: url('../../../assets/images/image5.jpg');
+    background-size: cover;
+}
+
+.ban1-wrap{
+    display: flex;
+    justify-content: end;
+}
+.ban1-art{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
