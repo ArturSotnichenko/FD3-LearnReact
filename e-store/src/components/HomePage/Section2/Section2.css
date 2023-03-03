@@ -1,16 +1,114 @@
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.baners1 {
+display: flex;
+justify-content: center;
+flex: 1 1 400px;
+gap: 20px; 
+}
+
 .ban1-wrapper{
     display: flex;
-    justify-content: center;
-    background-image: url('../../../assets/images/image5.jpg');
+    flex: 2 1 600px ;
+       background-image: url('../../../assets/images/image5.jpg');
     background-size: cover;
 }
 
-.ban1-wrap{
+.ban-wrap{
     display: flex;
-    justify-content: end;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
 }
-.ban1-art{
+
+.ban-art{
     display: flex;
     flex-direction: column;
     text-align: start;
+
+}
+
+.ban2-wrapper{
+    display: flex;
+    flex: 3 1 600px ;
+    
+    
+    background-image: url('../../../assets/images/image6.jpg');
+    background-size: cover;   
+}
+
+.ban2-wrap{
+    display: flex;
+    justify-content: end;
+}
+.ban2-art{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+
+.ban3-wrapper{
+    display: flex;
+    flex: 3 1  ;
+   
+    background-image: url('../../../assets/images/image7.jpg');
+    background-size: cover;   
+}
+
+
+.ban3-art{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.ban4-wrapper{
+    display: flex;
+    flex: 2 1  ;
+    
+   
+    background-color: #E5E8ED;
+    background-image: url('../../../assets/images/image8.jpg');
+    background-repeat: no-repeat;
+    background-position:  right bottom;
+    background-size:50%;
+}
+
+.ban4-wrap{
+    display: flex;
+    justify-content: end;
+}
+.ban4-art{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.sct2-p1{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+.sct2-p2{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 41px;
+}
+.ban-btn{
+    border: 1px solid #17696A;
+    border-radius: 4px;
+   background: transparent; 
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #17696A;
+    font-weight: 700;
+font-size: 14px;
+line-height: 44px;
 }

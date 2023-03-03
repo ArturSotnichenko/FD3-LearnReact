@@ -4,23 +4,50 @@ import '../Section2/Section2.css'
 const Section2 = () => {
     return (
         <div className='section2'>
-            <div>
+            <div className='baners1'>
                 <div className='ban1-wrapper'>
-                    <div className='ban1-wrap'>
-                        <div className='ban1-art'>
-                            <p>Summer Collections</p>
-                            <p>Sale Up to 70%</p>
-                            <button className='ban-btn'>Explore new prices </button>
+                    <div className='ban-wrap'>
+                        <div className='ban-art'>
+                            <p className='sct2-p1'>Summer Collections</p>
+                            <h2 className='sct2-p2' >Sale Up to 70%</h2>
+                            <button className='ban-btn'> <p>Explore new prices</p>  </button>
                         </div>
                     </div>
                 </div>
                 
                 <div className='ban2-wrapper'>
-                    <div className='ban2-wrap'>
-                        <div className='ban2-art'>
-                            <p>Deal of the week</p>
-                            <p>Stay Warm With Our New Sweaters</p>
+                    <div className='ban-wrap'>
+                        <div className='ban-art'>
+                            <p className='sct2-p1'>Deal of the week</p>
+                            <h2 className='sct2-p2'>Stay Warm With Our New Sweaters</h2>
                             <button className='ban-btn'>Shop now </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className='baners1'>
+                <div className='ban3-wrapper'>
+                    <div className='ban-wrap'>
+                        <div className='ban-art'>
+                            <p className='sct2-p1'>New collection</p>
+                            <h2 className='sct2-p2'>Shoes & Bags autumn / winter 2020 </h2>
+                            <button className='ban-btn'>See offers </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className='ban4-wrapper'>
+                    <div className='ban-wrap'>
+                        <div className='ban-art'>
+                            <p className='sct2-p1'>For All new Email Subscribers</p>
+                            <h2 className='sct2-p2'>Get 5% Off & Free Delivery</h2>
+                            <div>
+                                <input type="email" name="" id="" />
+                                <button type="submit"> Subscribe</button>
+                            </div>
+                            <p> *Sign up to be the first to hear about exclusive deals,
+                                 special offers and upcoming collections.</p>
                         </div>
                     </div>
                 </div>
