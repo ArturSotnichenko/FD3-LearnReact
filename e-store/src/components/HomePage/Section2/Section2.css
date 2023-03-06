@@ -28,6 +28,7 @@ gap: 20px;
 .ban-art{
     display: flex;
     flex-direction: column;
+    padding:5px;
     text-align: start;
 
 }
@@ -41,15 +42,7 @@ gap: 20px;
     background-size: cover;   
 }
 
-.ban2-wrap{
-    display: flex;
-    justify-content: end;
-}
-.ban2-art{
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-}
+
 
 
 .ban3-wrapper{
@@ -61,11 +54,7 @@ gap: 20px;
 }
 
 
-.ban3-art{
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-}
+
 
 .ban4-wrapper{
     display: flex;
@@ -79,15 +68,6 @@ gap: 20px;
     background-size:50%;
 }
 
-.ban4-wrap{
-    display: flex;
-    justify-content: end;
-}
-.ban4-art{
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-}
 
 .sct2-p1{
     font-size: 14px;
@@ -101,6 +81,11 @@ gap: 20px;
     font-weight: 900;
     line-height: 41px;
 }
+
+.btn-wrap{
+display: flex;
+}
+
 .ban-btn{
     border: 1px solid #17696A;
     border-radius: 4px;
@@ -111,4 +96,17 @@ gap: 20px;
     font-weight: 700;
 font-size: 14px;
 line-height: 44px;
+}
+
+.inp-wrap{
+    display: flex;
+}
+.sub-btn{
+padding: 0px 32px;
+background: #17696A;
+border: #17696A;
+border-radius: 0px 4px 4px 0px;
+color:#E5E8ED;
+font-size: 14px;
+letter-spacing: 0.5px;
 }

@@ -10,7 +10,7 @@ const Section2 = () => {
                         <div className='ban-art'>
                             <p className='sct2-p1'>Summer Collections</p>
                             <h2 className='sct2-p2' >Sale Up to 70%</h2>
-                            <button className='ban-btn'> <p>Explore new prices</p>  </button>
+                           <div className='btn-wrap'> <button className='ban-btn'> <p>Explore new prices</p>  </button></div>
                         </div>
                     </div>
                 </div>
@@ -20,7 +20,8 @@ const Section2 = () => {
                         <div className='ban-art'>
                             <p className='sct2-p1'>Deal of the week</p>
                             <h2 className='sct2-p2'>Stay Warm With Our New Sweaters</h2>
-                            <button className='ban-btn'>Shop now </button>
+                           <div className='btn-wrap'>
+                            <button className='ban-btn'>Shop now </button></div>
                         </div>
                     </div>
                 </div>
@@ -31,8 +32,9 @@ const Section2 = () => {
                     <div className='ban-wrap'>
                         <div className='ban-art'>
                             <p className='sct2-p1'>New collection</p>
-                            <h2 className='sct2-p2'>Shoes & Bags autumn / winter 2020 </h2>
-                            <button className='ban-btn'>See offers </button>
+                            <h2 className='sct2-p2'> <p>Shoes & Bags </p> 
+                          <p> autumn / winter 2020</p> </h2>
+                          <div  className='btn-wrap'> <button className='ban-btn'>See offers </button></div> 
                         </div>
                     </div>
                 </div>
@@ -42,9 +44,9 @@ const Section2 = () => {
                         <div className='ban-art'>
                             <p className='sct2-p1'>For All new Email Subscribers</p>
                             <h2 className='sct2-p2'>Get 5% Off & Free Delivery</h2>
-                            <div>
-                                <input type="email" name="" id="" />
-                                <button type="submit"> Subscribe</button>
+                            <div className='inp-wrap'>
+                                <input type="email" placeholder='Your working email' name="" id="" />
+                              <div className='btn-wrap'>  <button className = 'sub-btn' type="submit"> Subscribe</button></div>
                             </div>
                             <p> *Sign up to be the first to hear about exclusive deals,
                                  special offers and upcoming collections.</p>
