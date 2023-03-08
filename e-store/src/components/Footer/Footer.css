@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    
+    justify-content: center;
+    background-color:#1E212C ;
+}
+
+.footer-wrapper{
+    display: flex;
+    color: white;
+    width: 80%;
+    justify-content: space-around;  
+}
+
+.nav-block{
+    display: flex;
+}
+
+li{
+    list-style-type:none;
+}
+
+.n-block a{
+    display: flex;
+    font-size: 16px;
+    line-height: 160%; 
+    opacity: 0.6;
+}
+
+.contact-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.contact-wrap p{
+    font-size: 16px;
+    line-height: 160%; 
+    opacity: 0.6;  
+}
+.media-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
